@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gestor de Materias — Ingeniería en Sistemas (UTN)
 
 Aplicación de escritorio (Windows) para gestionar el avance de la carrera:
@@ -147,3 +148,7 @@ demás materias de la misma sección sin cerrar la ventana.
 - **Nuevas pantallas:** actualmente la UI está en `ui/widgets/`; cada
   pantalla nueva puede vivir en su propio archivo dentro de esa carpeta,
   siguiendo el mismo patrón que `grades_dialog.py`.
+=======
+# organizador-correlativas
+Gestor de materias para Ingeniería en Sistemas (UTN) con cálculo automático de correlativas, notas y créditos de electivas. Python + CustomTkinter + SQLite.
+>>>>>>> c982c24ca02f99c304ff179c172bce549be16ef6
