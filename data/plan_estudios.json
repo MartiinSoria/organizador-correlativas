@@ -1,0 +1,68 @@
+{
+  "carrera": "Ingeniería en Sistemas de Información (UTN)",
+  "materias": [
+    {"nivel": 1, "id": 1,  "nombre": "Análisis Matemático 1",                         "modalidad": "A",     "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 2,  "nombre": "Álgebra y Geometría Analítica",                  "modalidad": "A",     "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 3,  "nombre": "Física 1",                                       "modalidad": "A",     "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 4,  "nombre": "Inglés 1",                                       "modalidad": "A",     "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 5,  "nombre": "Lógica y Estructuras Discretas",                 "modalidad": "1C-2C", "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 6,  "nombre": "Algoritmo y Estructura de Datos",                "modalidad": "A",     "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 7,  "nombre": "Arquitectura de Computadoras",                   "modalidad": "2C-1C", "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 8,  "nombre": "Sistemas y Proceso de Negocios",                 "modalidad": "1C-2C", "regulares": [], "aprobadas": []},
+    {"nivel": 1, "id": 9,  "nombre": "Ingeniería y Sociedad",                          "modalidad": "2C-1C", "regulares": [], "aprobadas": []},
+
+    {"nivel": 2, "id": 10, "nombre": "Análisis Matemático 2",                          "modalidad": "A",     "regulares": [1, 2],   "aprobadas": []},
+    {"nivel": 2, "id": 11, "nombre": "Física 2",                                       "modalidad": "A",     "regulares": [1, 3],   "aprobadas": []},
+    {"nivel": 2, "id": 12, "nombre": "Inglés 2",                                       "modalidad": "A",     "regulares": [4],      "aprobadas": []},
+    {"nivel": 2, "id": 13, "nombre": "Sintaxis y Semántica de los Lenguajes",           "modalidad": "1C-2C", "regulares": [5, 6],   "aprobadas": []},
+    {"nivel": 2, "id": 14, "nombre": "Paradigmas de Programación",                     "modalidad": "1C-2C", "regulares": [5, 6],   "aprobadas": []},
+    {"nivel": 2, "id": 15, "nombre": "Sistemas Operativos",                            "modalidad": "A",     "regulares": [7],      "aprobadas": []},
+    {"nivel": 2, "id": 16, "nombre": "Análisis de Sistemas de Información (Int)",       "modalidad": "A",     "regulares": [6, 8],   "aprobadas": []},
+    {"nivel": 2, "id": 17, "nombre": "Probabilidad y Estadística",                     "modalidad": "1C-2C", "regulares": [1, 2],   "aprobadas": []},
+
+    {"nivel": 3, "id": 18, "nombre": "Economía",                                       "modalidad": "2C-1C", "regulares": [],        "aprobadas": [1, 2]},
+    {"nivel": 3, "id": 19, "nombre": "Base de Datos",                                  "modalidad": "1C-2C", "regulares": [13, 16],  "aprobadas": [5, 6]},
+    {"nivel": 3, "id": 20, "nombre": "Desarrollo de Software",                         "modalidad": "1C-2C", "regulares": [14, 16],  "aprobadas": [5, 6]},
+    {"nivel": 3, "id": 21, "nombre": "Comunicación de Datos",                          "modalidad": "A",     "regulares": [],        "aprobadas": [3, 7]},
+    {"nivel": 3, "id": 22, "nombre": "Análisis Numérico",                              "modalidad": "2C-1C", "regulares": [9],       "aprobadas": [1, 2]},
+    {"nivel": 3, "id": 23, "nombre": "Diseño de Sistemas de Información (Int)",         "modalidad": "A",     "regulares": [14, 16],  "aprobadas": [4, 6, 8]},
+    {"nivel": 3, "id": 99, "nombre": "Seminario Integrados (Analista)",                "modalidad": "2C",    "regulares": [16],      "aprobadas": [6, 8, 13, 14]},
+
+    {"nivel": 4, "id": 24, "nombre": "Legislación",                                    "modalidad": "2C-1C", "regulares": [11],        "aprobadas": []},
+    {"nivel": 4, "id": 25, "nombre": "Ingeniería y Calidad de Software",               "modalidad": "2C-1C", "regulares": [19, 20, 23],"aprobadas": [13, 14]},
+    {"nivel": 4, "id": 26, "nombre": "Redes de Datos",                                 "modalidad": "A",     "regulares": [15, 21],    "aprobadas": []},
+    {"nivel": 4, "id": 27, "nombre": "Investigación Operativa",                        "modalidad": "A",     "regulares": [17, 22],    "aprobadas": []},
+    {"nivel": 4, "id": 28, "nombre": "Simulación",                                     "modalidad": "1C-2C", "regulares": [17],        "aprobadas": [9]},
+    {"nivel": 4, "id": 29, "nombre": "Tecnologías Para la Automatización",             "modalidad": "2C-1C", "regulares": [10, 22],    "aprobadas": [9]},
+    {"nivel": 4, "id": 30, "nombre": "Administración de Sistemas de Información (Int)", "modalidad": "A",     "regulares": [18, 23],    "aprobadas": [16]},
+
+    {"nivel": 5, "id": 31, "nombre": "Inteligencia Artificial",                        "modalidad": "2C-1C", "regulares": [28],        "aprobadas": [17, 22]},
+    {"nivel": 5, "id": 32, "nombre": "Ciencia de Datos",                               "modalidad": "2C-1C", "regulares": [28],        "aprobadas": [17, 19]},
+    {"nivel": 5, "id": 33, "nombre": "Sistemas de Gestión",                            "modalidad": "1C-2C", "regulares": [18, 27],    "aprobadas": [23]},
+    {"nivel": 5, "id": 34, "nombre": "Gestión Gerencial",                              "modalidad": "1C-2C", "regulares": [24, 30],    "aprobadas": [18]},
+    {"nivel": 5, "id": 35, "nombre": "Seguridad en los Sistemas de Información",        "modalidad": "1C-2C", "regulares": [26, 30],    "aprobadas": [20, 21]},
+    {"nivel": 5, "id": 36, "nombre": "Proyecto Final (Int)",                           "modalidad": "A",     "regulares": [25, 26, 30],"aprobadas": [12, 20, 23]},
+
+    {"nivel": 3, "id": 201, "nombre": "Backend de Aplicaciones",                                    "modalidad": "2C",    "regulares": [14, 13],     "aprobadas": [6],       "categoria": "Electiva", "creditos": 4},
+
+    {"nivel": 4, "id": 202, "nombre": "Green Software",                                             "modalidad": "1C-2C", "regulares": [20, 19],     "aprobadas": [14, 13],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 203, "nombre": "Gestión Industrial de la Producción",                        "modalidad": "1C",    "regulares": [19],         "aprobadas": [8, 16],   "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 204, "nombre": "Gestión de la Mejora de los Procesos",                       "modalidad": "1C",    "regulares": [19],         "aprobadas": [8, 16],   "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 205, "nombre": "Desarrollo y Operaciones devOPS",                            "modalidad": "1C",    "regulares": [19, 20],     "aprobadas": [14, 13],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 206, "nombre": "Desarrollo de Aplicaciones Con Objetos",                     "modalidad": "2C",    "regulares": [13],         "aprobadas": [6],       "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 207, "nombre": "Comunicación Multimedial en el Desarrollo de Sistemas de Información", "modalidad": "2C", "regulares": [19],  "aprobadas": [8, 16],   "categoria": "Electiva", "creditos": 3},
+    {"nivel": 4, "id": 208, "nombre": "Arquitectura de Software",                                   "modalidad": "1C",    "regulares": [19, 20],     "aprobadas": [14, 13],  "categoria": "Electiva", "creditos": 3},
+
+    {"nivel": 5, "id": 209, "nombre": "Desarrollo de Tecnología Blockchain",                        "modalidad": "1C",    "regulares": [26, 19],     "aprobadas": [14, 20],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 210, "nombre": "Creatividad e Innovación en Ingeniería",                     "modalidad": "1C-2C", "regulares": [30],         "aprobadas": [20],      "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 211, "nombre": "Auditorías de SI/TI",                                        "modalidad": "1C",    "regulares": [30],         "aprobadas": [20],      "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 212, "nombre": "Gerenciamiento Estratégico",                                 "modalidad": "1C",    "regulares": [30],         "aprobadas": [20],      "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 213, "nombre": "Consultoría en Negocios Digitales",                          "modalidad": "1C",    "regulares": [30],         "aprobadas": [20],      "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 214, "nombre": "Emprendimientos Tecnológicos",                               "modalidad": "1C",    "regulares": [30],         "aprobadas": [16, 19],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 215, "nombre": "Decisiones en Escenarios Complejos",                         "modalidad": "1C",    "regulares": [27],         "aprobadas": [19],      "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 216, "nombre": "Testing de Software",                                        "modalidad": "2C",    "regulares": [25],         "aprobadas": [19, 20],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 217, "nombre": "Seguridad en el Desarrollo de Software",                     "modalidad": "2C",    "regulares": [26, 19],     "aprobadas": [20, 8],   "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 218, "nombre": "Integración de Aplicaciones en Entorno Web",                 "modalidad": "2C",    "regulares": [26, 19],     "aprobadas": [19, 20],  "categoria": "Electiva", "creditos": 3},
+    {"nivel": 5, "id": 219, "nombre": "Ingeniería de Software de Fuentes Abiertas/Libres",          "modalidad": "1C",    "regulares": [19, 20, 26], "aprobadas": [13, 14],  "categoria": "Electiva", "creditos": 3}
+  ]
+}

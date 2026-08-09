@@ -1,0 +1,2 @@
+customtkinter>=5.2.0
+tksheet>=7.0.0

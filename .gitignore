@@ -1,0 +1,19 @@
+# Base de datos local: contiene TUS notas y estados reales.
+# Nunca debe subirse al repo (es información personal tuya, no del proyecto).
+data/gestor_materias.db
+data/*.db
+data/*.db-journal
+
+# Artefactos de Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Config local del editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
